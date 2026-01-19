@@ -318,6 +318,12 @@ env = Environment(
     CPPPATH=CPPPATH,
     CPPDEFINES=CPPDEFINES,
     LIBS=LIBS,
+    ARCOMSTR = 'AR $TARGET',
+    ASCOMSTR = 'AS $TARGET',
+    ASPPCOMSTR = 'AS $TARGET',
+    CCCOMSTR = 'CC $TARGET',
+    CXXCOMSTR = 'CXX $TARGET',
+    LINKCOMSTR = 'LINK $TARGET'
 )
 
 # Set the program suffix

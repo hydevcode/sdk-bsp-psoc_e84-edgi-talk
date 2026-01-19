@@ -73,7 +73,7 @@ rtconfig.BSP_LIBRARY_TYPE = IFX_library
 
 # set spawn
 def ourspawn(sh, escape, cmd, args, e):
-    filename = str(uuid.uuid4())
+    filename = os.path.join('./', 'build', str(uuid.uuid4()))
     newargs = ' '.join(args[1:])
     cmdline = cmd + " " + newargs
     if (len(cmdline) > 16 * 1024):
