@@ -8,9 +8,9 @@ board:
   large_image: docs/figures/board_large.jpg
   sale_contact_cn: https://www.rt-thread.org/
   sale_contact_global: https://www.rt-thread.org/
-  buy_url_cn: N/A
-  buy_url_global: N/A
-  price_cn: NA CNY
+  buy_url_cn: https://item.taobao.com/item.htm?abbucket=19&id=1015914924486
+  buy_url_global: https://item.taobao.com/item.htm?abbucket=19&id=1015914924486
+  price_cn: 385 CNY
   price_global: NA USD
   debugger: KitProg3
   debug_interface: SWD
